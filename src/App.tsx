@@ -2,12 +2,13 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
 import { Box, Button, Link, Typography } from "@mui/material";
-
+import Header from "./Header";
 export default function App() {
   const [count, setCount] = useState(0);
 
   return (
     <Box className="App">
+      <Header></Header>
       <Box>
         <Link href="https://vitejs.dev" target="_blank">
           <img src="/vite.svg" className="logo" alt="Vite logo" />
