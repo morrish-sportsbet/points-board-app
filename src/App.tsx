@@ -24,9 +24,9 @@ export default function App() {
 			<ThemeProvider theme={themes(customization)}>
 				<CssBaseline />
 				<Box className="App">
-					<Header
+					{/* <Header
 						handleLeftDrawerToggle={() => console.log("Hi there ...")}
-					></Header>
+					></Header> */}
 					<Box>
 						<Link href="https://vitejs.dev" target="_blank">
 							<img src="/vite.svg" className="logo" alt="Vite logo" />

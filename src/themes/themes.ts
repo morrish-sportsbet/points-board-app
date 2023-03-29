@@ -1,8 +1,7 @@
 import { createTheme } from "@mui/material/styles"
 
 // assets
-import colors from "assets/scss/_themes-vars.module.scss"
-
+import colors from "../assets/scss/_themes-vars.module.scss"
 // project imports
 import componentStyleOverrides from "./compStyleOverride"
 import themePalette from "./palette"
@@ -52,4 +51,3 @@ export const themes = customization => {
 	return themes
 }
 
-export default theme
